@@ -1,0 +1,40 @@
+body {
+	font-family: 'Quando', serif;
+	color: white;
+	background: url('blurred-red.jpg') no-repeat;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+.container {
+	margin: 130px auto;
+	width: 1200px;
+}
+
+p {
+	margin: 50px 0;
+}
+
+img.s2w {
+	max-width: 350px;
+}
+
+form label {
+	display: none;
+}
+
+button {
+	padding: 0;
+	background-color: #bada55;
+}
+
+form input, button {
+	box-sizing: border-box;
+	height: 45px;
+	border: none;
+	padding: 10px;
+}
+
+form input {
+	color: black;
+}
