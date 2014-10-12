@@ -3,17 +3,19 @@ body {
   color: white;
   background: url("blurred-red.jpg") no-repeat;
   text-align: center;
-  font-size: 1.1em; }
+  font-size: 1.1em;
+  padding: 0 25px; }
 
 .container {
   margin: 130px auto;
-  width: 1200px; }
+  max-width: 1200px; }
 
 p {
   margin: 50px 0; }
 
 img.s2w {
-  max-width: 350px; }
+  width: 350px;
+  max-width: 100%; }
 
 form label {
   display: none; }
@@ -30,5 +32,21 @@ form input, button {
 
 form input {
   color: black; }
+
+@media all and (max-width: 700px) {
+  form input, button {
+    display: block;
+    width: 100%; }
+
+  form input:nth-of-type(1) {
+    margin-bottom: 10px; }
+
+  form input:nth-of-type(2) {
+    margin-bottom: 20px; }
+
+  form {
+    width: 350px;
+    max-width: 100%;
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=shopifield.css.map */
