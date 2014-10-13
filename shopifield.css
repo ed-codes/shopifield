@@ -1,7 +1,13 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
 body {
   font-family: 'Quando', serif;
   color: white;
   background: url("blurred-red.jpg") no-repeat;
+  background-size: cover;
   text-align: center;
   font-size: 1.1em;
   padding: 0 25px; }
