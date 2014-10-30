@@ -1,4 +1,2 @@
 shopifield
-==========
-
-westify yoself
+=========
